@@ -1,10 +1,52 @@
 .App {
   text-align: center;
+  padding: 4rem 0;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.plus-button{
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.text-img-container{
+  padding-top: 25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.text-img-container img{
+  width: 10rem;
+
+}
+
+.user-text{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.text-img-container{
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px 2px rgba(0,0,0,0.4);
+  padding: 1rem;
+  margin-top: 12rem;
+  min-height: 30rem;
+  max-height: auto;
+}
+
+.single-text{
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px 2px rgba(0,0,0,0.4);
+  padding: 1rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
